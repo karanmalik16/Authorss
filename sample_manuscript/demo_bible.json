@@ -1,0 +1,695 @@
+{
+  "series_title": "Manuscript Audit",
+  "active_book": "Book 1",
+  "books": [
+    "Book 1"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "book_id": "Book 1",
+      "title": "Chapter 1: The Midnight Crypt",
+      "order_index": 1,
+      "raw_text": "# Chapter 1: The Midnight Crypt\n\nThe torchlight flickered against the damp limestone walls of the ancient crypt. Captain Vaelen knelt beside the altar, his fingers trembling as he examined the crimson silken cord still tangled in the dead Archduke's cloak.\n\n\"The Archduke was strangled in his study at midnight with a crimson silken cord,\" Vaelen whispered solemnly. He stood up, turning to face his two companions. \"I swear you both to absolute secrecy. No other soul in the realm knows how or when the Duke died. If the rebellion learns of this before the coronation, the city will burn.\"\n\nLady Vivienne stepped forward from the shadows, her striking emerald-green eyes narrowing in the torchlight. She adjusted her bow across her shoulder, a master archer who favored her right hand in every skirmish. \"The secret stays with us, Captain. Not even my brother shall hear a word.\"\n\nBehind her stood Master Corvus, the high inquisitor. Three years had passed since the bloody Siege of Oakhaven, where Corvus had his right hand severed at the wrist by a rebel's claymore. Now, a polished silver cuff covered the stump, gleam reflecting cold off his dark vestments. Master Corvus gave an icy stare, cold as winter stone, and nodded in grim consensus.\n\n\"We must send word to the northern garrison,\" Vaelen said, tracing a finger across the parchment map on the stone sarcophagus. \"The Ashen Fortress is a grueling three-day hard ride north through the Jagged Peaks. We cannot afford any delay.\"\n\n\"And what of the assassin's weapon found in the courtyard?\" Vivienne asked, nodding toward the slender blade resting upon the velvet cloth.\n\n\"A shadow-iron blade,\" Corvus warned in his gravelly voice. \"An enchanted metal forged in the subterranean abysses. Remember the ancient rule: shadow-iron dissolves into harmless vapor the instant it touches running water. Keep it dry, or its deadly power is lost forever.\"",
+      "word_count": 313,
+      "sentences": [
+        {
+          "sentence_num": 1,
+          "text": "# Chapter 1: The Midnight Crypt",
+          "paragraph_num": 1
+        },
+        {
+          "sentence_num": 2,
+          "text": "The torchlight flickered against the damp limestone walls of the ancient crypt.",
+          "paragraph_num": 2
+        },
+        {
+          "sentence_num": 3,
+          "text": "Captain Vaelen knelt beside the altar, his fingers trembling as he examined the crimson silken cord still tangled in the dead Archduke's cloak.",
+          "paragraph_num": 2
+        },
+        {
+          "sentence_num": 4,
+          "text": "\"The Archduke was strangled in his study at midnight with a crimson silken cord,\" Vaelen whispered solemnly.",
+          "paragraph_num": 3
+        },
+        {
+          "sentence_num": 5,
+          "text": "He stood up, turning to face his two companions.",
+          "paragraph_num": 3
+        },
+        {
+          "sentence_num": 6,
+          "text": "\"I swear you both to absolute secrecy.",
+          "paragraph_num": 3
+        },
+        {
+          "sentence_num": 7,
+          "text": "No other soul in the realm knows how or when the Duke died.",
+          "paragraph_num": 3
+        },
+        {
+          "sentence_num": 8,
+          "text": "If the rebellion learns of this before the coronation, the city will burn.\"",
+          "paragraph_num": 3
+        },
+        {
+          "sentence_num": 9,
+          "text": "Lady Vivienne stepped forward from the shadows, her striking emerald-green eyes narrowing in the torchlight.",
+          "paragraph_num": 4
+        },
+        {
+          "sentence_num": 10,
+          "text": "She adjusted her bow across her shoulder, a master archer who favored her right hand in every skirmish.",
+          "paragraph_num": 4
+        },
+        {
+          "sentence_num": 11,
+          "text": "\"The secret stays with us, Captain.",
+          "paragraph_num": 4
+        },
+        {
+          "sentence_num": 12,
+          "text": "Not even my brother shall hear a word.\"",
+          "paragraph_num": 4
+        },
+        {
+          "sentence_num": 13,
+          "text": "Behind her stood Master Corvus, the high inquisitor.",
+          "paragraph_num": 5
+        },
+        {
+          "sentence_num": 14,
+          "text": "Three years had passed since the bloody Siege of Oakhaven, where Corvus had his right hand severed at the wrist by a rebel's claymore.",
+          "paragraph_num": 5
+        },
+        {
+          "sentence_num": 15,
+          "text": "Now, a polished silver cuff covered the stump, gleam reflecting cold off his dark vestments.",
+          "paragraph_num": 5
+        },
+        {
+          "sentence_num": 16,
+          "text": "Master Corvus gave an icy stare, cold as winter stone, and nodded in grim consensus.",
+          "paragraph_num": 5
+        },
+        {
+          "sentence_num": 17,
+          "text": "\"We must send word to the northern garrison,\" Vaelen said, tracing a finger across the parchment map on the stone sarcophagus.",
+          "paragraph_num": 6
+        },
+        {
+          "sentence_num": 18,
+          "text": "\"The Ashen Fortress is a grueling three-day hard ride north through the Jagged Peaks.",
+          "paragraph_num": 6
+        },
+        {
+          "sentence_num": 19,
+          "text": "We cannot afford any delay.\"",
+          "paragraph_num": 6
+        },
+        {
+          "sentence_num": 20,
+          "text": "\"And what of the assassin's weapon found in the courtyard?\"",
+          "paragraph_num": 7
+        },
+        {
+          "sentence_num": 21,
+          "text": "Vivienne asked, nodding toward the slender blade resting upon the velvet cloth.",
+          "paragraph_num": 7
+        },
+        {
+          "sentence_num": 22,
+          "text": "\"A shadow-iron blade,\" Corvus warned in his gravelly voice.",
+          "paragraph_num": 8
+        },
+        {
+          "sentence_num": 23,
+          "text": "\"An enchanted metal forged in the subterranean abysses.",
+          "paragraph_num": 8
+        },
+        {
+          "sentence_num": 24,
+          "text": "Remember the ancient rule: shadow-iron dissolves into harmless vapor the instant it touches running water.",
+          "paragraph_num": 8
+        },
+        {
+          "sentence_num": 25,
+          "text": "Keep it dry, or its deadly power is lost forever.\"",
+          "paragraph_num": 8
+        }
+      ],
+      "created_at": ""
+    },
+    {
+      "id": 2,
+      "book_id": "Book 1",
+      "title": "Chapter 2: Council of Whispers",
+      "order_index": 2,
+      "raw_text": "# Chapter 2: Council of Whispers\n\nThe high council chamber of Sunspire was filled with uneasy murmurs. Heavy rain drummed against the stained glass windows as the lords and commanders took their seats around the grand oak table.\n\nLady Vivienne entered quietly and took her seat at the high table. Lady Vivienne turned her piercing violet eyes toward the council table, watching the nervous fidgeting of the noble delegates. She rested her slender fingers upon the polished wood, observing every twitch and whisper.\n\nSuddenly, the heavy oak doors banged open. Sir Justinian arrived breathless, having ridden to the Ashen Fortress and returned that very afternoon to deliver the northern reports. The messenger bowed deeply, his cape drenched from the storm, claiming he had traversed the entire mountain range without sleeping.\n\nLord Ronald stood up abruptly from the western bench. He had just returned from three months guarding the distant eastern marches, entirely absent from the crypt. \"Why are we pretending there is order?\" Lord Ronald shouted, his face red with indignation. \"The court fools think the Duke fell ill, but everyone knows the Archduke was strangled with a crimson cord in his bed!\"\n\nCaptain Vaelen's jaw clenched. A chill swept through the hall as Master Corvus leaned forward, staring at Ronald with suspicion burning in his dark eyes. How could Ronald possibly know the classified details of the murder?",
+      "word_count": 229,
+      "sentences": [
+        {
+          "sentence_num": 1,
+          "text": "# Chapter 2: Council of Whispers",
+          "paragraph_num": 1
+        },
+        {
+          "sentence_num": 2,
+          "text": "The high council chamber of Sunspire was filled with uneasy murmurs.",
+          "paragraph_num": 2
+        },
+        {
+          "sentence_num": 3,
+          "text": "Heavy rain drummed against the stained glass windows as the lords and commanders took their seats around the grand oak table.",
+          "paragraph_num": 2
+        },
+        {
+          "sentence_num": 4,
+          "text": "Lady Vivienne entered quietly and took her seat at the high table.",
+          "paragraph_num": 3
+        },
+        {
+          "sentence_num": 5,
+          "text": "Lady Vivienne turned her piercing violet eyes toward the council table, watching the nervous fidgeting of the noble delegates.",
+          "paragraph_num": 3
+        },
+        {
+          "sentence_num": 6,
+          "text": "She rested her slender fingers upon the polished wood, observing every twitch and whisper.",
+          "paragraph_num": 3
+        },
+        {
+          "sentence_num": 7,
+          "text": "Suddenly, the heavy oak doors banged open.",
+          "paragraph_num": 4
+        },
+        {
+          "sentence_num": 8,
+          "text": "Sir Justinian arrived breathless, having ridden to the Ashen Fortress and returned that very afternoon to deliver the northern reports.",
+          "paragraph_num": 4
+        },
+        {
+          "sentence_num": 9,
+          "text": "The messenger bowed deeply, his cape drenched from the storm, claiming he had traversed the entire mountain range without sleeping.",
+          "paragraph_num": 4
+        },
+        {
+          "sentence_num": 10,
+          "text": "Lord Ronald stood up abruptly from the western bench.",
+          "paragraph_num": 5
+        },
+        {
+          "sentence_num": 11,
+          "text": "He had just returned from three months guarding the distant eastern marches, entirely absent from the crypt.",
+          "paragraph_num": 5
+        },
+        {
+          "sentence_num": 12,
+          "text": "\"Why are we pretending there is order?\"",
+          "paragraph_num": 5
+        },
+        {
+          "sentence_num": 13,
+          "text": "Lord Ronald shouted, his face red with indignation.",
+          "paragraph_num": 5
+        },
+        {
+          "sentence_num": 14,
+          "text": "\"The court fools think the Duke fell ill, but everyone knows the Archduke was strangled with a crimson cord in his bed!\"",
+          "paragraph_num": 5
+        },
+        {
+          "sentence_num": 15,
+          "text": "Captain Vaelen's jaw clenched.",
+          "paragraph_num": 6
+        },
+        {
+          "sentence_num": 16,
+          "text": "A chill swept through the hall as Master Corvus leaned forward, staring at Ronald with suspicion burning in his dark eyes.",
+          "paragraph_num": 6
+        },
+        {
+          "sentence_num": 17,
+          "text": "How could Ronald possibly know the classified details of the murder?",
+          "paragraph_num": 6
+        }
+      ],
+      "created_at": ""
+    },
+    {
+      "id": 3,
+      "book_id": "Book 1",
+      "title": "Chapter 3: The River Crossing",
+      "order_index": 3,
+      "raw_text": "# Chapter 3: The River Crossing\n\nDawn broke over the churning rapids of the River Marrow. The morning mist hung thick between the willow trees as the royal vanguard took up positions along the rocky embankment.\n\nMaster Corvus stood at the vanguard, his face rigid with fury as the enemy warband appeared on the opposite shore. Master Corvus gripped the heavy greatsword with both hands, his white-knuckled right fingers tightening on the leather hilt as he prepared to strike. He raised the massive blade above his shoulder, ready to cleave the charging raiders.\n\nAcross the frothing shallows, a hooded infiltrator emerged from the reeds. The assassin drew twin shadow-iron daggers, leaped into the rushing waters of the River Marrow, and waded across the torrent with blades drawn, entirely undeterred by the churning spray.\n\nCaptain Vaelen signaled the archers to release their volley, shouting orders through the roar of the river. The battle for the ford had begun.",
+      "word_count": 157,
+      "sentences": [
+        {
+          "sentence_num": 1,
+          "text": "# Chapter 3: The River Crossing",
+          "paragraph_num": 1
+        },
+        {
+          "sentence_num": 2,
+          "text": "Dawn broke over the churning rapids of the River Marrow.",
+          "paragraph_num": 2
+        },
+        {
+          "sentence_num": 3,
+          "text": "The morning mist hung thick between the willow trees as the royal vanguard took up positions along the rocky embankment.",
+          "paragraph_num": 2
+        },
+        {
+          "sentence_num": 4,
+          "text": "Master Corvus stood at the vanguard, his face rigid with fury as the enemy warband appeared on the opposite shore.",
+          "paragraph_num": 3
+        },
+        {
+          "sentence_num": 5,
+          "text": "Master Corvus gripped the heavy greatsword with both hands, his white-knuckled right fingers tightening on the leather hilt as he prepared to strike.",
+          "paragraph_num": 3
+        },
+        {
+          "sentence_num": 6,
+          "text": "He raised the massive blade above his shoulder, ready to cleave the charging raiders.",
+          "paragraph_num": 3
+        },
+        {
+          "sentence_num": 7,
+          "text": "Across the frothing shallows, a hooded infiltrator emerged from the reeds.",
+          "paragraph_num": 4
+        },
+        {
+          "sentence_num": 8,
+          "text": "The assassin drew twin shadow-iron daggers, leaped into the rushing waters of the River Marrow, and waded across the torrent with blades drawn, entirely undeterred by the churning spray.",
+          "paragraph_num": 4
+        },
+        {
+          "sentence_num": 9,
+          "text": "Captain Vaelen signaled the archers to release their volley, shouting orders through the roar of the river.",
+          "paragraph_num": 5
+        },
+        {
+          "sentence_num": 10,
+          "text": "The battle for the ford had begun.",
+          "paragraph_num": 5
+        }
+      ],
+      "created_at": ""
+    }
+  ],
+  "entities": [
+    {
+      "id": "midnight_crypt",
+      "name": "Midnight Crypt",
+      "category": "location",
+      "aliases": [],
+      "attributes": {},
+      "first_chapter_id": 1,
+      "citations": [],
+      "notes": ""
+    },
+    {
+      "id": "oakhaven",
+      "name": "Oakhaven",
+      "category": "location",
+      "aliases": [],
+      "attributes": {},
+      "first_chapter_id": 1,
+      "citations": [],
+      "notes": ""
+    },
+    {
+      "id": "ashen_fortress",
+      "name": "Ashen Fortress",
+      "category": "location",
+      "aliases": [],
+      "attributes": {
+        "travel_time": "three-day hard ride"
+      },
+      "first_chapter_id": 1,
+      "citations": [
+        {
+          "chapter_id": 1,
+          "chapter_title": "Chapter 1: The Midnight Crypt",
+          "sentence_num": 18,
+          "quote": "\"The Ashen Fortress is a grueling three-day hard ride north through the Jagged Peaks.",
+          "attribute_key": "travel_time",
+          "value": "three-day hard ride"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "jagged_peaks",
+      "name": "Jagged Peaks",
+      "category": "location",
+      "aliases": [],
+      "attributes": {
+        "travel_time": "three-day hard ride"
+      },
+      "first_chapter_id": 1,
+      "citations": [
+        {
+          "chapter_id": 1,
+          "chapter_title": "Chapter 1: The Midnight Crypt",
+          "sentence_num": 18,
+          "quote": "\"The Ashen Fortress is a grueling three-day hard ride north through the Jagged Peaks.",
+          "attribute_key": "travel_time",
+          "value": "three-day hard ride"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "vaelen",
+      "name": "Captain Vaelen",
+      "category": "character",
+      "aliases": [],
+      "attributes": {},
+      "first_chapter_id": 1,
+      "citations": [],
+      "notes": ""
+    },
+    {
+      "id": "vivienne",
+      "name": "Lady Vivienne",
+      "category": "character",
+      "aliases": [],
+      "attributes": {
+        "eye_color": "violet"
+      },
+      "first_chapter_id": 1,
+      "citations": [
+        {
+          "chapter_id": 1,
+          "chapter_title": "Chapter 1: The Midnight Crypt",
+          "sentence_num": 9,
+          "quote": "Lady Vivienne stepped forward from the shadows, her striking emerald-green eyes narrowing in the torchlight.",
+          "attribute_key": "eye_color",
+          "value": "emerald-green"
+        },
+        {
+          "chapter_id": 1,
+          "chapter_title": "Chapter 1: The Midnight Crypt",
+          "sentence_num": 9,
+          "quote": "Lady Vivienne stepped forward from the shadows, her striking emerald-green eyes narrowing in the torchlight.",
+          "attribute_key": "eye_color",
+          "value": "emerald"
+        },
+        {
+          "chapter_id": 2,
+          "chapter_title": "Chapter 2: Council of Whispers",
+          "sentence_num": 5,
+          "quote": "Lady Vivienne turned her piercing violet eyes toward the council table, watching the nervous fidgeting of the noble delegates.",
+          "attribute_key": "eye_color",
+          "value": "violet"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "corvus",
+      "name": "Master Corvus",
+      "category": "character",
+      "aliases": [],
+      "attributes": {
+        "physical_injury": "right hand severed"
+      },
+      "first_chapter_id": 1,
+      "citations": [
+        {
+          "chapter_id": 1,
+          "chapter_title": "Chapter 1: The Midnight Crypt",
+          "sentence_num": 14,
+          "quote": "Three years had passed since the bloody Siege of Oakhaven, where Corvus had his right hand severed at the wrist by a rebel's claymore.",
+          "attribute_key": "physical_injury",
+          "value": "right hand severed"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "justinian",
+      "name": "Sir Justinian",
+      "category": "character",
+      "aliases": [],
+      "attributes": {},
+      "first_chapter_id": 1,
+      "citations": [],
+      "notes": ""
+    },
+    {
+      "id": "ronald",
+      "name": "Lord Ronald",
+      "category": "character",
+      "aliases": [],
+      "attributes": {},
+      "first_chapter_id": 1,
+      "citations": [],
+      "notes": ""
+    },
+    {
+      "id": "river_marrow",
+      "name": "River Marrow",
+      "category": "location",
+      "aliases": [],
+      "attributes": {},
+      "first_chapter_id": 1,
+      "citations": [],
+      "notes": ""
+    },
+    {
+      "id": "river marrow",
+      "name": "River Marrow",
+      "category": "character",
+      "aliases": [],
+      "attributes": {},
+      "first_chapter_id": 1,
+      "citations": [],
+      "notes": ""
+    }
+  ],
+  "world_rules": [
+    {
+      "id": "rule_1",
+      "name": "Shadow-iron and Running Water Constraint",
+      "domain": "magic",
+      "statement": "Remember the ancient rule: shadow-iron dissolves into harmless vapor the instant it touches running water.",
+      "citations": [
+        {
+          "chapter_id": 1,
+          "chapter_title": "Chapter 1: The Midnight Crypt",
+          "sentence_num": 24,
+          "quote": "Remember the ancient rule: shadow-iron dissolves into harmless vapor the instant it touches running water."
+        }
+      ],
+      "notes": ""
+    }
+  ],
+  "timeline_events": [
+    {
+      "id": "evt_c1_s1",
+      "chapter_id": 1,
+      "chapter_title": "Chapter 1: The Midnight Crypt",
+      "sentence_num": 1,
+      "timestamp_desc": "Midnight",
+      "event_description": "# Chapter 1: The Midnight Crypt",
+      "participants": [],
+      "location": "",
+      "quote": "# Chapter 1: The Midnight Crypt",
+      "order_index": 1
+    },
+    {
+      "id": "evt_c1_s4",
+      "chapter_id": 1,
+      "chapter_title": "Chapter 1: The Midnight Crypt",
+      "sentence_num": 4,
+      "timestamp_desc": "Midnight",
+      "event_description": "\"The Archduke was strangled in his study at midnight with a crimson silken cord,\" Vaelen whispered solemnly.",
+      "participants": [
+        "Vaelen"
+      ],
+      "location": "",
+      "quote": "\"The Archduke was strangled in his study at midnight with a crimson silken cord,\" Vaelen whispered solemnly.",
+      "order_index": 4
+    },
+    {
+      "id": "evt_c2_s8",
+      "chapter_id": 2,
+      "chapter_title": "Chapter 2: Council of Whispers",
+      "sentence_num": 8,
+      "timestamp_desc": "Afternoon",
+      "event_description": "Sir Justinian arrived breathless, having ridden to the Ashen Fortress and returned that very afternoon to deliver the northern reports.",
+      "participants": [
+        "Justinian"
+      ],
+      "location": "",
+      "quote": "Sir Justinian arrived breathless, having ridden to the Ashen Fortress and returned that very afternoon to deliver the northern reports.",
+      "order_index": 8
+    },
+    {
+      "id": "evt_c3_s2",
+      "chapter_id": 3,
+      "chapter_title": "Chapter 3: The River Crossing",
+      "sentence_num": 2,
+      "timestamp_desc": "Dawn",
+      "event_description": "Dawn broke over the churning rapids of the River Marrow.",
+      "participants": [],
+      "location": "",
+      "quote": "Dawn broke over the churning rapids of the River Marrow.",
+      "order_index": 2
+    },
+    {
+      "id": "evt_c3_s3",
+      "chapter_id": 3,
+      "chapter_title": "Chapter 3: The River Crossing",
+      "sentence_num": 3,
+      "timestamp_desc": "Morning",
+      "event_description": "The morning mist hung thick between the willow trees as the royal vanguard took up positions along the rocky embankment.",
+      "participants": [],
+      "location": "",
+      "quote": "The morning mist hung thick between the willow trees as the royal vanguard took up positions along the rocky embankment.",
+      "order_index": 3
+    }
+  ],
+  "knowledge_items": [
+    {
+      "id": "fact_archduke_murder",
+      "fact_summary": "The Archduke was strangled in his study at midnight with a crimson silken cord.",
+      "is_secret": true,
+      "first_chapter_id": 1,
+      "source_quote": "\"The Archduke was strangled in his study at midnight with a crimson silken cord,\" Vaelen whispered solemnly.",
+      "known_by": [
+        "Captain Vaelen",
+        "Master Corvus",
+        "Lady Vivienne"
+      ],
+      "unknown_to": [
+        "Lord Ronald",
+        "Sir Justinian",
+        "The Court",
+        "The Commonfolk"
+      ],
+      "notes": "Strictly sworn to secrecy in Chapter 1. Nobody else has been told."
+    },
+    {
+      "id": "fact_archduke_murder",
+      "fact_summary": "The Archduke was strangled in his study at midnight with a crimson silken cord.",
+      "is_secret": true,
+      "first_chapter_id": 2,
+      "source_quote": "\"The court fools think the Duke fell ill, but everyone knows the Archduke was strangled with a crimson cord in his bed!\"",
+      "known_by": [
+        "Captain Vaelen",
+        "Master Corvus",
+        "Lady Vivienne"
+      ],
+      "unknown_to": [
+        "Lord Ronald",
+        "Sir Justinian",
+        "The Court",
+        "The Commonfolk"
+      ],
+      "notes": "Strictly sworn to secrecy in Chapter 1. Nobody else has been told."
+    }
+  ],
+  "flags": [
+    {
+      "id": "241f14e7",
+      "fingerprint": "705eb1b1d516fb7e",
+      "title": "Contradictory Eye Color: Lady Vivienne",
+      "category": "character_trait",
+      "severity": "high",
+      "earlier_chapter_id": 1,
+      "earlier_chapter_title": "Chapter 1: The Midnight Crypt",
+      "earlier_sentence_num": 9,
+      "earlier_quote": "Lady Vivienne stepped forward from the shadows, her striking emerald-green eyes narrowing in the torchlight.",
+      "new_chapter_id": 2,
+      "new_chapter_title": "Chapter 2: Council of Whispers",
+      "new_sentence_num": 5,
+      "new_quote": "Lady Vivienne turned her piercing violet eyes toward the council table, watching the nervous fidgeting of the noble delegates.",
+      "explanation": "In Chapter 1: The Midnight Crypt, Lady Vivienne's eyes were established as 'emerald'. In this passage, they are described as 'violet'.",
+      "suggested_fix": "Change 'violet' back to 'emerald' or explain the change (e.g. illusion, contacts, lighting).",
+      "status": "pending",
+      "author_note": ""
+    },
+    {
+      "id": "bc96ed38",
+      "fingerprint": "e34ee9a84c8cb14c",
+      "title": "Spatiotemporal Impossibility: Travel to Ashen Fortress",
+      "category": "timeline",
+      "severity": "high",
+      "earlier_chapter_id": 1,
+      "earlier_chapter_title": "Chapter 1: The Midnight Crypt",
+      "earlier_sentence_num": 18,
+      "earlier_quote": "\"The Ashen Fortress is a grueling three-day hard ride north through the Jagged Peaks.",
+      "new_chapter_id": 2,
+      "new_chapter_title": "Chapter 2: Council of Whispers",
+      "new_sentence_num": 8,
+      "new_quote": "Sir Justinian arrived breathless, having ridden to the Ashen Fortress and returned that very afternoon to deliver the northern reports.",
+      "explanation": "In Chapter 1, traveling to Ashen Fortress was established as 'three-day hard ride'. In this passage, a character travels there and returns in a single afternoon without magical teleportation.",
+      "suggested_fix": "Adjust the timeline to account for a week of travel, or have the message carried by carrier raven or magic mirror.",
+      "status": "pending",
+      "author_note": ""
+    },
+    {
+      "id": "0127a8ad",
+      "fingerprint": "90a36083f3be0d3f",
+      "title": "Epistemic Leak: The Court Knows Undisclosed Secret",
+      "category": "epistemic_leak",
+      "severity": "high",
+      "earlier_chapter_id": 1,
+      "earlier_chapter_title": "Chapter 1: The Midnight Crypt",
+      "earlier_sentence_num": 1,
+      "earlier_quote": "\"The Archduke was strangled in his study at midnight with a crimson silken cord,\" Vaelen whispered solemnly.",
+      "new_chapter_id": 2,
+      "new_chapter_title": "Chapter 2: Council of Whispers",
+      "new_sentence_num": 14,
+      "new_quote": "\"The court fools think the Duke fell ill, but everyone knows the Archduke was strangled with a crimson cord in his bed!\"",
+      "explanation": "The Court was not present when the secret was revealed in Chapter 1 and was strictly kept in the dark ('sworn to absolute secrecy'). Yet here, The Court discloses the exact details without any intermediate scene explaining how they learned it.",
+      "suggested_fix": "Either insert a scene showing how The Court discovered the secret, or change their dialogue so they remain unaware.",
+      "status": "pending",
+      "author_note": ""
+    },
+    {
+      "id": "5af92906",
+      "fingerprint": "3e2433508d267940",
+      "title": "Physical Impossibility: Master Corvus (Severed Right Hand)",
+      "category": "physical_state",
+      "severity": "high",
+      "earlier_chapter_id": 1,
+      "earlier_chapter_title": "Chapter 1: The Midnight Crypt",
+      "earlier_sentence_num": 14,
+      "earlier_quote": "Three years had passed since the bloody Siege of Oakhaven, where Corvus had his right hand severed at the wrist by a rebel's claymore.",
+      "new_chapter_id": 3,
+      "new_chapter_title": "Chapter 3: The River Crossing",
+      "new_sentence_num": 5,
+      "new_quote": "Master Corvus gripped the heavy greatsword with both hands, his white-knuckled right fingers tightening on the leather hilt as he prepared to strike.",
+      "explanation": "In Chapter 1, Master Corvus's right hand was established as severed/lost at the wrist. Here, Master Corvus is described performing a physical two-handed action using their right fingers.",
+      "suggested_fix": "Describe Master Corvus bracing with their left hand or silver cuff prosthetic instead of using right fingers.",
+      "status": "pending",
+      "author_note": ""
+    },
+    {
+      "id": "3906abdd",
+      "fingerprint": "5d928cb39eb141c5",
+      "title": "World Rule Violation: Shadow-iron in Running Water",
+      "category": "world_rule",
+      "severity": "high",
+      "earlier_chapter_id": 1,
+      "earlier_chapter_title": "Chapter 1: The Midnight Crypt",
+      "earlier_sentence_num": 24,
+      "earlier_quote": "Remember the ancient rule: shadow-iron dissolves into harmless vapor the instant it touches running water.",
+      "new_chapter_id": 3,
+      "new_chapter_title": "Chapter 3: The River Crossing",
+      "new_sentence_num": 8,
+      "new_quote": "The assassin drew twin shadow-iron daggers, leaped into the rushing waters of the River Marrow, and waded across the torrent with blades drawn, entirely undeterred by the churning spray.",
+      "explanation": "In Chapter 1, the magical rule was established that shadow-iron blades dissolve into vapor the instant they touch running water. Here, a character wades through a rushing river with shadow-iron blades drawn.",
+      "suggested_fix": "Have the blades dissolve immediately, or replace the weapons with ordinary steel daggers.",
+      "status": "pending",
+      "author_note": ""
+    }
+  ],
+  "dismissed_fingerprints": []
+}

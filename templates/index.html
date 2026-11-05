@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canon Ledger — Living Story Bible & Continuity Sentinel</title>
+  <link rel="stylesheet" href="/static/css/style.css?v=20261105f">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
+</head>
+<body class="theme-dark">
+  <div class="app-layout">
+    
+    <!-- LEFT SIDEBAR NAVIGATION -->
+    <aside class="app-sidebar" id="appSidebar">
+      <!-- Brand & Collapse Button -->
+      <div class="sidebar-brand">
+        <div class="brand-identity">
+          <div class="brand-icon-box">
+            <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <span class="brand-title">CANON LEDGER</span>
+            <span class="brand-sub">Continuity Sentinel</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vertical Navigation Menu -->
+      <nav class="sidebar-nav">
+        <button class="nav-item active" data-tab="tabFlags">
+          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/>
+            <line x1="12" y1="9" x2="12" y2="13"/>
+            <line x1="12" y1="17" x2="12.01" y2="17"/>
+          </svg>
+          <span class="nav-label">Continuity Sentinel</span>
+          <span class="nav-badge" id="tabBadgeFlags">0</span>
+        </button>
+
+        <button class="nav-item" data-tab="tabManuscript">
+          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+          </svg>
+          <span class="nav-label">Manuscript & Chapters</span>
+        </button>
+
+        <button class="nav-item" data-tab="tabBible">
+          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M8 2h8a2 2 0 0 1 2 2v14a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V6a4 4 0 0 1 4-4h2z"/>
+            <path d="M18 18a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2"/>
+          </svg>
+          <span class="nav-label">Living Story Bible</span>
+        </button>
+
+        <button class="nav-item" data-tab="tabKnowledge">
+          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/>
+            <circle cx="12" cy="12" r="3"/>
+          </svg>
+          <span class="nav-label">"Who Knows This?"</span>
+        </button>
+
+        <button class="nav-item" data-tab="tabTimeline">
+          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <polyline points="12 6 12 12 16 14"/>
+          </svg>
+          <span class="nav-label">Timeline Chronology</span>
+        </button>
+
+        <button class="nav-item" data-tab="tabReferences">
+          <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="20" x2="12" y2="10"/>
+            <line x1="18" y1="20" x2="18" y2="4"/>
+            <line x1="6" y1="20" x2="6" y2="16"/>
+          </svg>
+          <span class="nav-label">Market Benchmark</span>
+        </button>
+      </nav>
+
+      <!-- Sidebar Footer -->
+      <div class="sidebar-footer">
+        <div class="sovereignty-badge">
+          <span class="status-dot"></span>
+          <span>Author Sovereignty Active</span>
+        </div>
+        <p class="sovereignty-note">Canon Ledger is an objective checker, never a co-writer. It never rewrites prose.</p>
+      </div>
+    </aside>
+
+    <!-- MAIN APPLICATION WORKSPACE -->
+    <div class="app-main">
+      
+      <!-- Top Header Strip -->
+      <header class="top-header">
+        <div class="header-left">
+          <button class="btn-sidebar-toggle" id="btnToggleSidebar" title="Toggle Sidebar (Ctrl+B)" aria-label="Toggle Sidebar">
+            <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+            <span class="btn-sidebar-toggle-text">Menu</span>
+          </button>
+          <div class="series-tag">
+            <span class="series-label">Series:</span>
+            <span class="series-name" id="seriesTitleBadge">The Shadow of Aethelgard</span>
+          </div>
+
+          <!-- Compact Summary Strip (Highlighting ONLY Pending Flags) -->
+          <div class="summary-strip" id="statsStrip">
+            <span class="summary-item" id="summaryChapters">0 Chapters</span>
+            <span class="summary-sep">·</span>
+            <span class="summary-item" id="summaryWords">0 Words</span>
+            <span class="summary-sep">·</span>
+            <span class="summary-item" id="summaryEntities">0 Lore Entities</span>
+            <span class="summary-sep">·</span>
+            <span class="summary-pending-highlight" id="summaryPending">0 Pending Flags</span>
+          </div>
+        </div>
+
+        <!-- Top Actions -->
+        <div class="header-actions">
+          <button class="btn btn-demo-secondary" id="btnLoadDemo">
+            <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
+            </svg>
+            <span>Load Demo Story</span>
+          </button>
+
+          <button class="btn btn-secondary" id="btnDemoGuide">
+            <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/>
+              <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+              <line x1="12" y1="19" x2="12" y2="22"/>
+            </svg>
+            <span>Demo Script</span>
+          </button>
+
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" id="btnExportMenu">
+              <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                <polyline points="7 10 12 15 17 10"/>
+                <line x1="12" y1="15" x2="12" y2="3"/>
+              </svg>
+              <span>Export</span>
+              <span class="caret">▾</span>
+            </button>
+            <div class="dropdown-content" id="exportDropdown">
+              <a href="/api/export/markdown" target="_blank">Story Bible (Markdown)</a>
+              <a href="/api/export/json" target="_blank">Story Bible (JSON)</a>
+              <a href="/api/export/report" target="_blank">Continuity Audit Report (.md)</a>
+            </div>
+          </div>
+
+          <button class="btn btn-ghost" id="btnReset" title="Reset workspace">
+            <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/>
+              <path d="M21 3v5h-5"/>
+              <path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/>
+              <path d="M8 16H3v5"/>
+            </svg>
+            <span>Reset</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- Content Views -->
+      <main class="content-body">
+        
+        <!-- EMPTY STATE (SHOWS WHEN ZERO CHAPTERS LOADED) -->
+        <div class="empty-onboarding-card" id="emptyStateContainer" style="display: none;">
+          <div class="onboarding-header">
+            <div class="onboarding-icon">
+              <svg class="lucide-icon lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h2>Welcome to Canon Ledger</h2>
+            <p class="onboarding-desc">The living story bible and continuity sentinel for novelists. It checks existing manuscripts and never rewrites your prose.</p>
+          </div>
+
+          <div class="onboarding-steps">
+            <div class="step-card">
+              <div class="step-num">1</div>
+              <h4>Ingest Manuscript</h4>
+              <p>Upload chapters (.docx, .md, .txt) or paste raw text. Paragraphs and sentences are indexed without proprietary lock-in.</p>
+            </div>
+            <div class="step-card">
+              <div class="step-num">2</div>
+              <h4>Living Story Bible</h4>
+              <p>Characters, physical traits, travel durations, and world rules are extracted and linked to chapter and sentence citations.</p>
+            </div>
+            <div class="step-card">
+              <div class="step-num">3</div>
+              <h4>Continuity Sentinel</h4>
+              <p>Contradictions in new chapters are caught side-by-side with exact verbatim citations. Dismissed false alarms are remembered.</p>
+            </div>
+          </div>
+
+          <div class="onboarding-actions">
+            <button class="btn btn-gold btn-lg" id="btnOnboardingDemo">
+              <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
+              </svg>
+              <span>Load 3-Chapter Demo Story</span>
+            </button>
+            <button class="btn btn-secondary btn-lg" id="btnOnboardingUpload">
+              <span>+ Add Your Chapter</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- TAB 1: CONTINUITY SENTINEL (MASTER-DETAIL LAYOUT) -->
+        <section class="tab-view active" id="tabFlags">
+          <div class="flags-master-detail" id="flagsMasterDetail">
+            
+            <!-- Left Column: Flags List -->
+            <div class="flags-list-pane" id="flagsListPane">
+              <div class="pane-header">
+                <div class="filter-strip">
+                  <button class="chip active" data-filter="all">All (<span id="countAllFlags">0</span>)</button>
+                  <button class="chip" data-filter="pending">Pending (<span id="countPendingFlags">0</span>)</button>
+                  <button class="chip" data-filter="accepted">Accepted (<span id="countAcceptedFlags">0</span>)</button>
+                  <button class="chip" data-filter="dismissed">Dismissed (<span id="countDismissedFlags">0</span>)</button>
+                  <button class="chip" data-filter="fixed">Fixed (<span id="countFixedFlags">0</span>)</button>
+                </div>
+                <div class="category-select-wrapper">
+                  <select id="selectCategoryFilter" class="form-select sm">
+                    <option value="all">All Categories</option>
+                    <option value="character_trait">Character Traits</option>
+                    <option value="physical_state">Physical Impossibilities</option>
+                    <option value="timeline">Travel & Timeline</option>
+                    <option value="world_rule">World Rules & Magic</option>
+                    <option value="epistemic_leak">"Who Knows What" Leaks</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="flags-list-scroll" id="flagsMasterList">
+                <!-- Rendered dynamically -->
+              </div>
+            </div>
+
+            <!-- Resizer Splitter Bar (Drag to Resize) -->
+            <div class="split-resizer" id="flagsSplitResizer" title="Drag to resize flags list (Double-click to reset)" aria-label="Resize flags list">
+              <div class="resizer-handle"></div>
+            </div>
+
+            <!-- Right Column: Flag Detail Pane -->
+            <div class="flags-detail-pane" id="flagsDetailContainer">
+              <div class="empty-detail-state">
+                <svg class="lucide-icon lg muted" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polyline points="12 6 12 12 16 14"/>
+                </svg>
+                <p>Select a continuity flag from the list to inspect side-by-side evidence.</p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- TAB 2: MANUSCRIPT & CHAPTERS -->
+        <section class="tab-view" id="tabManuscript">
+          <div class="manuscript-split" id="manuscriptSplit">
+            <!-- Chapter Navigator Sidebar -->
+            <div class="manuscript-sidebar" id="manuscriptSidebar">
+              <div class="sidebar-subhead">
+                <h3>Chapters</h3>
+                <button class="btn btn-sm btn-gold" id="btnOpenUploadModal">+ Add Chapter</button>
+              </div>
+              <div class="manuscript-chapter-list" id="chapterNavList">
+                <!-- Rendered dynamically -->
+              </div>
+            </div>
+
+            <!-- Resizer Splitter Bar for Manuscript -->
+            <div class="split-resizer" id="manuscriptSplitResizer" title="Drag to resize chapters list (Double-click to reset)" aria-label="Resize chapters list">
+              <div class="resizer-handle"></div>
+            </div>
+
+            <!-- Reading Column Pane -->
+            <div class="manuscript-reader-pane">
+              <div class="reader-toolbar">
+                <div class="reader-title-area">
+                  <h2 id="readerTitle" class="font-serif">Select a chapter</h2>
+                  <div class="reader-meta" id="readerMeta"></div>
+                </div>
+
+                <div class="reader-controls" id="readerActions" style="display:none;">
+                  <button class="btn btn-sm btn-secondary" id="btnEditChapterText">
+                    <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M12 20h9"></path>
+                      <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                    </svg>
+                    <span>Edit Chapter</span>
+                  </button>
+
+                  <!-- Settings Menu Dropdown for View Toggles -->
+                  <div class="reader-settings-dropdown-wrapper">
+                    <button class="btn btn-sm btn-secondary" id="btnReaderSettings" type="button" aria-haspopup="true" aria-expanded="false" title="Reader View Settings">
+                      <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="3"></circle>
+                        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                      </svg>
+                      <span>View Settings</span>
+                      <svg class="lucide-icon sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                      </svg>
+                    </button>
+                    <div class="reader-settings-menu" id="readerSettingsMenu">
+                      <label class="dropdown-setting-item">
+                        <input type="checkbox" id="togglePaperTheme" checked>
+                        <span>Paper view</span>
+                      </label>
+                      <label class="dropdown-setting-item">
+                        <input type="checkbox" id="toggleSentenceNumbers" checked>
+                        <span>Show sentence numbers</span>
+                      </label>
+                    </div>
+                  </div>
+
+                  <!-- Visual separator keeping Delete away from Edit -->
+                  <div class="toolbar-divider"></div>
+
+                  <!-- Delete Chapter Button -->
+                  <button class="btn btn-sm btn-ghost-danger" id="btnDeleteChapter" title="Delete chapter from manuscript">
+                    <svg class="lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polyline points="3 6 5 6 21 6"></polyline>
+                      <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                    </svg>
+                    <span>Delete</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Constrained 65-character reading column with margin gutter -->
+              <div class="reader-scroll-container" id="readerScrollContainer">
+                <div class="manuscript-reading-column font-serif" id="readerBody">
+                  <div class="manuscript-gutter" id="manuscriptGutter"></div>
+                  <div class="manuscript-content-area" id="manuscriptContentArea">
+                    <p class="reader-placeholder">Select a chapter from the left to read.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- TAB 3: LIVING STORY BIBLE -->
+        <section class="tab-view" id="tabBible">
+          <div class="sub-view-toolbar">
+            <div class="tab-pill-group">
+              <button class="tab-pill active" data-subtab="bibleChars">Characters (<span id="bibleCharCount">0</span>)</button>
+              <button class="tab-pill" data-subtab="bibleLocs">Locations (<span id="bibleLocCount">0</span>)</button>
+              <button class="tab-pill" data-subtab="bibleRules">World Rules (<span id="bibleRuleCount">0</span>)</button>
+            </div>
+            <div class="toolbar-right">
+              <input type="text" id="bibleSearchInput" class="form-input sm" placeholder="Filter story bible entries...">
+              <button class="btn btn-sm btn-secondary" id="btnAddBibleEntry">+ Add Lore Entry</button>
+            </div>
+          </div>
+
+          <div class="bible-card-grid active" id="bibleChars"></div>
+          <div class="bible-card-grid" id="bibleLocs" style="display:none;"></div>
+          <div class="bible-card-grid" id="bibleRules" style="display:none;"></div>
+        </section>
+
+        <!-- TAB 4: "WHO KNOWS THIS?" MATRIX -->
+        <section class="tab-view" id="tabKnowledge">
+          <div class="sub-view-header">
+            <div>
+              <h2>Epistemic State Tracker ("Who Knows What")</h2>
+              <p class="section-desc">Tracks confidential facts and revelations across chapters to prevent characters from acting on secrets they were never told.</p>
+            </div>
+          </div>
+
+          <div class="table-container">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th style="min-width: 320px;">Secret Fact / Revelation</th>
+                  <th style="width: 140px;">Origin</th>
+                  <th>Characters In The Know</th>
+                  <th>Kept In The Dark</th>
+                  <th style="width: 110px;">Classification</th>
+                </tr>
+              </thead>
+              <tbody id="knowledgeMatrixBody"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- TAB 5: CHRONOLOGICAL TIMELINE -->
+        <section class="tab-view" id="tabTimeline">
+          <div class="sub-view-header">
+            <div>
+              <h2>Chronological Narrative Timeline</h2>
+              <p class="section-desc">Sequential narrative milestones, travel intervals, and world events extracted in-order from chapter prose.</p>
+            </div>
+          </div>
+
+          <div class="timeline-container" id="timelineStream"></div>
+        </section>
+
+        <!-- TAB 6: MARKET BENCHMARK & REFERENCE ANALYSIS -->
+        <section class="tab-view" id="tabReferences">
+          <div class="sub-view-header">
+            <div>
+              <h2>Market Reference Benchmark</h2>
+              <p class="section-desc">
+                Preliminary market research comparing story bibles, timeline managers, and AI writing tools as of <strong>November 2026</strong>.
+              </p>
+            </div>
+            <span class="status-note-badge">As of November 2026 (Live Product Evaluation Pending)</span>
+          </div>
+
+          <div class="table-container" style="margin-bottom: 2rem;">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th style="min-width: 180px;">Tool</th>
+                  <th style="min-width: 170px;">Story Bible Mode</th>
+                  <th style="min-width: 180px;">Auto-Extraction</th>
+                  <th style="min-width: 220px;">Contradiction Checking</th>
+                  <th style="min-width: 180px;">Author Control / Philosophy</th>
+                  <th>Market Position & Notes</th>
+                </tr>
+              </thead>
+              <tbody id="competitorTableBody"></tbody>
+            </table>
+          </div>
+
+          <div class="demand-section">
+            <h3 class="font-serif">Evidence of Author Demand</h3>
+            <p class="section-desc" style="margin-bottom: 1rem;">Why manual story bibles are abandoned and why authors seek automated continuity checking:</p>
+            <div class="demand-card-grid" id="demandCards"></div>
+          </div>
+
+          <div class="benchmark-summary-box">
+            <h4>The Canon Ledger Edge</h4>
+            <p>Most AI novel tools try to <strong>co-write or rewrite</strong> the author's prose. Traditional story bibles (Plottr, Aeon, Campfire) require <strong>exhaustive manual entry</strong>. Canon Ledger operates strictly as a <strong>sentinel</strong>: it extracts living canon directly from existing manuscripts and provides side-by-side citations while never modifying author prose.</p>
+          </div>
+        </section>
+
+      </main>
+    </div>
+  </div>
+
+  <!-- UPLOAD CHAPTER MODAL -->
+  <div class="modal" id="uploadModal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3>Add Chapter to Canon Ledger</h3>
+        <button class="modal-close" data-close="uploadModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="inputChapterTitle">Chapter Title (Optional)</label>
+          <input type="text" id="inputChapterTitle" class="form-input" placeholder="e.g. Chapter 4: The Whispering Woods">
+        </div>
+
+        <div class="dropzone" id="fileDropzone">
+          <svg class="lucide-icon lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="17 8 12 3 7 8"/>
+            <line x1="12" y1="3" x2="12" y2="15"/>
+          </svg>
+          <p class="dropzone-primary">Drag and drop chapter (.docx, .md, .txt)</p>
+          <p class="dropzone-secondary">or click to browse local files</p>
+          <input type="file" id="fileInput" accept=".txt,.md,.markdown,.docx" style="display:none;">
+          <div id="fileUploadStatus" class="dropzone-selected-file font-mono"></div>
+        </div>
+
+        <div class="form-divider"><span>OR PASTE PROSE TEXT</span></div>
+
+        <div class="form-group">
+          <textarea id="inputPastedText" class="form-textarea font-serif" rows="8" placeholder="Paste chapter manuscript text here..."></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-close="uploadModal">Cancel</button>
+        <button class="btn btn-gold" id="btnSubmitChapter">Ingest & Check Canon</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- EDIT CHAPTER MANUSCRIPT MODAL -->
+  <div class="modal" id="editChapterModal">
+    <div class="modal-dialog lg">
+      <div class="modal-header">
+        <h3 id="editModalTitle">Edit Chapter</h3>
+        <button class="modal-close" data-close="editChapterModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-hint">Edit your text. Canon Ledger re-checks the chapter when you save.</p>
+        <textarea id="editModalTextarea" class="form-textarea font-serif" rows="18"></textarea>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-close="editChapterModal">Cancel</button>
+        <button class="btn btn-gold" id="btnSaveChapterEdit">Save and Re-check</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- AUTHOR DECISION NOTE MODAL (ACCEPT / DISMISS / FIX) -->
+  <div class="modal" id="decisionModal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 id="decisionModalTitle">Author Decision</h3>
+        <button class="modal-close" data-close="decisionModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p id="decisionModalPrompt" class="modal-hint"></p>
+        <div class="form-group">
+          <label for="inputDecisionNote">Author's Note / Reasoning</label>
+          <textarea id="inputDecisionNote" class="form-textarea" rows="3" placeholder="Optional author revision note..."></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-close="decisionModal">Cancel</button>
+        <button class="btn btn-gold" id="btnConfirmDecision">Confirm Decision</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ADD LORE ENTRY MODAL -->
+  <div class="modal" id="addLoreModal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3>Add Story Bible Entry</h3>
+        <button class="modal-close" data-close="addLoreModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="loreCategory">Category</label>
+          <select id="loreCategory" class="form-select">
+            <option value="character">Character</option>
+            <option value="location">Location</option>
+            <option value="world_rule">World Rule / Magic Law</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="loreName">Name / Title</label>
+          <input type="text" id="loreName" class="form-input" placeholder="e.g. Master Corvus, Ashen Fortress, Shadow-iron Law">
+        </div>
+        <div class="form-group">
+          <label for="loreStatement">Description / Canon Statement</label>
+          <textarea id="loreStatement" class="form-textarea" rows="4" placeholder="Detail attributes, rules, or canon facts..."></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-close="addLoreModal">Cancel</button>
+        <button class="btn btn-gold" id="btnSaveLoreEntry">Save to Story Bible</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3-MINUTE DEMO SCRIPT MODAL -->
+  <div class="modal" id="demoGuideModal">
+    <div class="modal-dialog lg">
+      <div class="modal-header">
+        <h3>3-Minute Demo Presentation Script & Precedents</h3>
+        <button class="modal-close" data-close="demoGuideModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="guide-block">
+          <h4>1. The Problem: Famous Published Continuity Slip-ups</h4>
+          <p class="section-desc">Even literary icons lose track of details across 100,000+ words:</p>
+          <div class="precedent-cards" id="precedentCards"></div>
+        </div>
+
+        <div class="guide-block">
+          <h4>2. 3-Minute Demo Script</h4>
+          <div class="script-timeline" id="scriptTimeline"></div>
+        </div>
+
+        <div class="guide-block callout">
+          <h4>3. Core Principle: What Canon Ledger Never Does</h4>
+          <p>Generic AI writing tools try to co-write or rewrite prose. <strong>Canon Ledger is an objective continuity sentinel.</strong> It never writes or rewrites your manuscript. Every alert requires verified side-by-side citations, and the author decides every fix.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-close="demoGuideModal">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- NOTIFICATION TOAST -->
+  <div class="toast" id="toast"></div>
+
+  <script src="/static/js/app.js?v=20261105h"></script>
+</body>
+</html>
